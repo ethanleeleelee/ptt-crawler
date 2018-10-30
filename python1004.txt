@@ -1,0 +1,43 @@
+﻿HTML:
+<h1> 李承軒 </h1>
+<div name="introduction">
+  <img width=560 length=300
+       src="https://scontent.ftpe7-2.fna.fbcdn.net/v/t1.0-9/17098569_1384692148220481_6163185876881294494_n.jpg?_nc_cat=104&oh=2ce0b67d80a782c1cb31270633600ca1&oe=5C1C5CCC">
+  <li> 系級:社學四 </li>
+  <li> 性別:男 </li>
+  <li> 血型:A </li>
+  <li> 生日:1997/07/10 </li>
+  <a href="https://www.facebook.com/photo.php?fbid=1384692148220481&set=a.908128065876894&type=3&theater"> 我的臉書連結 </a>
+  <hr>
+</div>
+<div name="forgift">
+  <h3> 抽獎 </h3>
+  閱讀完的人開放抽獎，請填入一些個人資料參加抽獎 <br>
+  <form name="poll">
+    <label> name</label>
+    <input type="text"> <br>
+    <label> email </label>
+    <input type="text"> <br>
+    <label> sex  </label>
+    <select>
+      <option> M </option>
+      <option> F </option>
+    </select> <br>
+    <label> date of birth </label>
+    <input type="date"> <br>
+    <button> SEND </button>
+    <hr>
+    </div>
+<div name="music">
+  <h3> Music </h3> <br>
+  <iframe width="560" height="300" src="https://www.youtube.com/embed/rzc3_b_KnHc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  <br>
+  </div>
+<div name="homework">
+  <h3> Homework </h3>
+  <a href="https://docs.google.com/presentation/d/1o9n7bfRvsiZS6Us0J-SlGtmK9MGEtSGNwjzx_Lh3heI/edit?usp=sharing"> PTT結構表</a>
+  </div>
+  CSS:
+h1{color:blue;} 
+div h3{color:navy;}
+div>a{color:red}
